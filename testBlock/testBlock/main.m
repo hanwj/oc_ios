@@ -20,6 +20,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"primes is %@",[finder primes]);
         NSLog(@"total time is %fs",[finder elapsedTime]);
         NSLog(@"Hello, World!");
+        NSInteger value = 3;
     }
     return 0;
 }

@@ -1,0 +1,12 @@
+PODS:
+  - PLPlayerKit (1.2.17):
+    - PLPlayerKit/precompiled (= 1.2.17)
+  - PLPlayerKit/precompiled (1.2.17)
+
+DEPENDENCIES:
+  - PLPlayerKit
+
+SPEC CHECKSUMS:
+  PLPlayerKit: d3b954634a41fbdee55ee77f9422c8bc2d00a059
+
+COCOAPODS: 0.37.2

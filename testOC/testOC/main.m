@@ -40,6 +40,11 @@ int main(int argc, const char * argv[]) {
         {
             
         };
+        
+        NSString *string = @"adafd";
+        NSInteger value = [string intValue];
+        NSLog(@"%ld",value);
     }
+    
     return 0;
 }

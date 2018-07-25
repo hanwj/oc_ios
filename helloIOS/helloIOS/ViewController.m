@@ -19,8 +19,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 50, 30, 30)];
+    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    btn.frame = CGRectMake(0, 0, 100, 100);
+    btn.backgroundColor = [UIColor blueColor];
+    [btn addTarget:self action:@selector(clickBtn:) forControlEvents:UIControlEventTouchUpInside];
+    [view addSubview:btn];
 }
 
+-(void)clickBtn:(id)sender
+{
+    NSLog(@"123");
+}
 -(void)viewDidUnload{
     [self setUserOutput:nil];
     [self setUserInput:nil];

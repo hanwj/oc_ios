@@ -20,6 +20,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.title = @"Main";
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc]initWithTitle:@"Root" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.rightBarButtonItem = rightItem;
+    self.navigationItem.prompt = @"hello ";
+    self.navigationController.toolbarHidden = NO;
 }
 
 - (void)didReceiveMemoryWarning {
